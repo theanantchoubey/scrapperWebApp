@@ -1,0 +1,42 @@
+config.js
+node_modules
+.env
+/.env
+
+# Ignore Node.js related files and directories
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Ignore build and distribution files
+build/
+dist/
+*.log
+*.map
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore npm package lock files (npm v5+)
+package-lock.json
+yarn.lock
+
+# Ignore cache and temporary files
+*.cache/
+*.log
+
+# Ignore test files and directories
+__tests__/
+test/
+
+# Ignore any other files or directories you want to exclude
+# For example, public files generated during development, sensitive config files, etc.
