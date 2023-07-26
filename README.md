@@ -8,10 +8,25 @@ APIs Used: Google Custom Search API, Scrapping Bee API
 
 ### How to Set up the project Locally!
 STEP 1: clone the repository
+<br/>
 STEP 2: Install all the npm packages
 ```
 npm install
 ```
+STEP 3: Change Enviornment Variables with yours <br> 
+    a. Create a .env file <br>
+    b. Store the following variables
+<br>
+> CUSTOM_SEARCH_API_KEY  <br>
+Above API Key you can generate on - [console.cloud.google.com](https://console.cloud.google.com/apis/library/customsearch.googleapis.com) <br>
+
+> SEARCH_ENGINE_ID <br>
+You can get on - [console.cloud.google.com](https://console.cloud.google.com/apis/library/customsearch.googleapis.com)<br>
+
+> SCRAPPING_BEE_API_KEY <br>
+Above API Key you can generate on - [ScrappingBee](https://www.scrapingbee.com/#pricing)
+
+<br>
 STEP 3: Start the server
 ```
 nodemon app.js
