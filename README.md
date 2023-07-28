@@ -3,7 +3,7 @@
 This web app takes query as an input and in turn returns data from top 5 websites.
 This a web scrapping project.
 
-Technologies Used: Node.JS, Express.JS, etc.
+Technologies Used: Node.JS, Express.JS, etc.<br>
 APIs Used: Google Custom Search API, Scrapping Bee API
 
 ### How to Set up the project Locally!

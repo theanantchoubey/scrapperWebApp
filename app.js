@@ -33,6 +33,7 @@ app.post("/", async (req, res) => {
       rawData += data;
     });
     response.on("end", async () => {
+      console.log(rawData);
       if (status === 200) {
         const scrappedSearchData = JSON.parse(rawData);
         const url1 = scrappedSearchData.items[0].link;
@@ -98,6 +99,7 @@ app.post("/", async (req, res) => {
           text5: bodyText5,
         });
       } else {
+        console.log("Error!");
         res.redirect("/");
       }
     });
